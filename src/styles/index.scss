@@ -1,0 +1,17 @@
+@import 'normalize.scss';
+@import 'vars.scss';
+@import 'fonts.scss';
+@import 'react-toastify/dist/ReactToastify.css';
+
+*,
+*::before,
+*::after {
+  font-family: 'Roboto', sans-serif;
+  font-size: 16px;
+  font-weight: 400;
+}
+
+body {
+  background-color: var(--background-default);
+  color: var(--text);
+}
